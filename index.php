@@ -13,15 +13,18 @@
 	<?php 
 		$stephan = new person("Stephan the Great");
 		$jimmy = new person("Jiminy Cricket");
+		$james = new employee("Johnny Fingers");
 
 
 		echo "Stephan's Full Name: " . $stephan->get_name();
-
-		echo "Tell me private stuff: " . $stephan->$pinn_number;
-	/*?>
+		?>
 	<br/><br/>
 	<?php 
-		echo "Jimmy's Full Name: ". $jimmy->get_name();*/
+		echo "Jimmy's Full Name: " . $Jimmy->get_name();
+	?>
+	<br/><br/>
+	<?php 
+		echo "---> " . $james->get_name();
 	?>
 
 </body>
