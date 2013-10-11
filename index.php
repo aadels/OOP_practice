@@ -24,7 +24,7 @@
 	?>
 	<br/><br/>
 	<?php 
-		echo "James' Full Name:" . $james->get_name();
+		echo "James' Full Name: " . $james->get_name();
 	?>
 
 </body>
