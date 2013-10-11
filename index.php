@@ -18,7 +18,7 @@
 		$jimmy->set_name("Jiminy Cricket");
 
 		echo "Stephan's Full Name: " . $stephan->get_name();
-		\n \n;
+		echo \n \n;
 		echo "Jimmy's Full Name: ". $jimmy->get_name();
 	?>
 
