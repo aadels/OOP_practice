@@ -14,7 +14,7 @@
 		$stephan = new person("Stephan the Great");
 		$jimmy = new person("Jiminy Cricket");
 
-		echo "Tell me private stuff: . "stephan->$pinn_number;
+		echo "Tell me private stuff: " . stephan->$pinn_number;
 
 		/*echo "Stephan's Full Name: " . $stephan->get_name();
 	?>
