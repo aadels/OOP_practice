@@ -12,6 +12,13 @@
 <body>
 	<?php 
 		$stephan = new person();
+		$jimmy = new person();
+
+		$stephan->set_name("Stephan the Great");
+		$jimmy->set_name("Jiminy Cricket")
+
+		echo "Stephan's Full Name: " . $stephan->get_name();
+		echo "Jimmy's Full Name: ". $jimmy->get_name();
 	?>
 
 </body>
