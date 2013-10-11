@@ -20,7 +20,7 @@
 		?>
 	<br/><br/>
 	<?php 
-		echo "Jimmy's Full Name: " . $Jimmy->get_name();
+		echo "Jimmy's Full Name: " . $jimmy->get_name();
 	?>
 	<br/><br/>
 	<?php 
