@@ -7,4 +7,5 @@ $obj = new MyClass;
 
 echo $obj->prop1;  
 
+
 ?>
